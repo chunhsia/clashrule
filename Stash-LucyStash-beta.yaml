@@ -45,6 +45,18 @@ proxy-groups:
 
   - {name: 谷歌服务, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
 
+
+
+
+
+  # 新增
+  - {name: 苹果服务, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
+
+
+
+
+
+
   - {name: 电报消息, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
 
   - {name: 推特消息, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
@@ -54,9 +66,9 @@ proxy-groups:
   # 新增
   - {name: Whatsapp, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Whatsapp.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
   - {name: Line, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Line.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
-  - {name: Wechat, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/WeChat.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
+  - {name: Wechat, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/WeChat.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
   - {name: TikTok, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
-  - {name: XiaoHongShu, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Fitness/Chat.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
+  - {name: XiaoHongShu, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Fitness/Chat.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
   - {name: 苹果服务, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
 
 
@@ -116,6 +128,17 @@ rule-providers:
   # 推特消息
   Twitter: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Twitter.list}
 
+
+#新增
+  XiaoHongShu: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/XiaoHongShu/XiaoHongShu.list}
+  Wechat: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/WeChat.list}
+  Whatsapp: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Whatsapp/Whatsapp.list}
+  Line: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Line/Line.list}
+
+
+
+
+
   # 游戏平台
   Steam: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Steam.list}
   Epic: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Epic.list}
@@ -158,7 +181,12 @@ rules:
   - RULE-SET,Disney,国际媒体
   - RULE-SET,PrimeVideo,国际媒体
   - RULE-SET,HBO,国际媒体
-  - RULE-SET,TikTok,国际媒体
+  - RULE-SET,TikTok,TikTok
+  - RULE-SET,XiaoHongShu,XiaoHongShu
+  - RULE-SET,Wechat,Wechat
+  - RULE-SET,Whatsapp,Whatsapp
+  - RULE-SET,Line,Line
+  
   - RULE-SET,Spotify,Spotify
   - RULE-SET,ProxyGFW,国外网站
   - RULE-SET,AppleProxy,苹果服务
