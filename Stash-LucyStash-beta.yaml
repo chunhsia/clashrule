@@ -185,7 +185,7 @@ rules:
   - RULE-SET,Spotify,Spotify
   - RULE-SET,ProxyGFW,国外网站
   - RULE-SET,AppleProxy,苹果服务
-  - RULE-SET,Apple,DIRECT
+  - RULE-SET,Apple,苹果服务
   - RULE-SET,Lan,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,兜底分流
