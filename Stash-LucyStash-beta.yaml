@@ -57,7 +57,7 @@ proxy-groups:
 
   - {name: 推特消息, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
 
-
+  - {name: Facebook, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Facebook.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
 
   # 新增
   - {name: Whatsapp, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Whatsapp.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
@@ -66,8 +66,7 @@ proxy-groups:
   - {name: TikTok, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
   - {name: XiaoHongShu, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Fitness/Chat.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
 
-
-
+  - {name:  Facebook, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Fitness/Chat.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
 
 
 
@@ -134,7 +133,7 @@ rule-providers:
   Wechat: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/WeChat.list}
   Whatsapp: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Whatsapp/Whatsapp.list}
   Line: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Line/Line.list}
-
+  Facebook: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Facebook.list}
 
 
 
