@@ -71,7 +71,7 @@ proxy-groups:
 
 
 
-  - {name: AI, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
+  - {name: AI, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
 
   - {name: 游戏平台, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
 
