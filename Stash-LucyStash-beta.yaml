@@ -64,7 +64,7 @@ proxy-groups:
   - {name: Line, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Line.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
   - {name: Wechat, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/WeChat.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
   - {name: TikTok, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
-  - {name: XiaoHongShu, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Fitness/Chat.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
+  - {name: 小红书, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Fitness/Chat.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
 
   
 
@@ -143,7 +143,7 @@ rule-providers:
 
 
   #国际下载 游戏下载
-  国际下载: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/DownloadCDN_Global.list}
+  DownloadCDN_Global: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/DownloadCDN_Global.list}
 
 
   # 游戏平台
@@ -189,10 +189,15 @@ rules:
   - RULE-SET,PrimeVideo,国际媒体
   - RULE-SET,HBO,国际媒体
   - RULE-SET,TikTok,TikTok
-  - RULE-SET,XiaoHongShu,XiaoHongShu
+  - RULE-SET,XiaoHongShu,小红书
   - RULE-SET,Wechat,Wechat
   - RULE-SET,Whatsapp,Whatsapp
   - RULE-SET,Line,Line
+
+  - RULE-SET,Facebook,Facebook
+
+ 
+  - RULE-SET,DownloadCDN_Global,国际下载
   
   - RULE-SET,Spotify,Spotify
   - RULE-SET,ProxyGFW,国外网站
