@@ -75,6 +75,12 @@ proxy-groups:
 
   - {name: 游戏平台, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
 
+  - {name: 国际下载, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Download.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
+
+
+
+
+
   - {name: Emby, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, type: select, include-all: true, proxies: [节点选择, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
 
   - {name: Spotify, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
@@ -136,6 +142,8 @@ rule-providers:
   Facebook: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Facebook.list}
 
 
+  #国际下载 游戏下载
+  国际下载: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/DownloadCDN_Global.list}
 
 
   # 游戏平台
