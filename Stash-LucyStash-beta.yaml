@@ -4,7 +4,7 @@
 #
 # Stash Version ≥ 2.6.0 
 #
-# 最后更新时间: 2024-06-05 18:30
+# 最后更新时间: 2024-06-17 18:30
 #
 # ================
 
@@ -26,7 +26,7 @@ subscribe-url:
 
 # > 远程服务器
 proxy-providers:
-  Subscribe: {interval: 86400, url: http://your-service-provider}
+  Subscribe: {interval: 86400, url: 机场订阅地址}
 
 proxy-groups:
 
