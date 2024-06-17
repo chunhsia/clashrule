@@ -114,7 +114,7 @@ proxy-groups:
 
 
 
-  - {name: 其他节点, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png, type: select, include-all: true, filter: "^((?!套餐|到期|余额|剩余|流量|官网|🇭🇰|港|HK|Hong|🇹🇼|台|TW|Tai|🇯🇵|日|JP|Japan|🇸🇬|坡|狮城|SG|Singapore|🇰🇷|韩|KR|KOR|Korea|🇬🇧|🇫🇷|🇳🇱|🇮🇸|🇩🇪|🇺🇦|🇨🇭|🇪🇺|🇺🇸|美|US|States|American).)*$"}
+  - {name: 其他节点, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png, type: select, include-all: true, filter: "^((?!套餐|到期|余额|剩余|流量|官网|🇭🇰|港|HK|Hong|🇹🇼|台|TW|Tai|🇨🇦|加拿大|温哥华|多伦多|🇯🇵|日|JP|Japan|🇸🇬|坡|狮城|SG|Singapore|🇰🇷|韩|KR|KOR|Korea|🇬🇧|🇫🇷|🇳🇱|🇮🇸|🇩🇪|🇺🇦|🇨🇭|🇪🇺|🇺🇸|美|US|States|American).)*$"}
 
 
 
