@@ -108,7 +108,7 @@ proxy-groups:
   - {name: 欧洲节点, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/European_Union.png, type: url-test, lazy: true, interval: 300, include-all: true, filter: "🇬🇧|🇫🇷|🇳🇱|🇮🇸|🇩🇪|🇺🇦|🇨🇭|🇪🇺"}
 
 
-  - {name: 其他节点, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png, type: select, lazy: true, interval: 900, use: [Subscribe], filter: “^((?!)🇭🇰|港|HK|Hong|🇹🇼|🇨🇳|台|TW|Tai|🇯🇵|日|JP|Japan|🇸🇬|坡|狮城|SG|Singapore|🇬🇧|🇫🇷|🇳🇱|🇮🇸|🇩🇪|🇺🇦|🇨🇭|🇪🇺|🇨🇦|加拿大|温哥华|多伦多|🇺🇸|美|US|States|American).*$"}
+  - {name: 其他节点, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png, type: select, lazy: true, use: [Subscribe], filter: “^((?!)🇭🇰|港|HK|Hong|🇹🇼|🇨🇳|台|TW|Tai|🇯🇵|日|JP|Japan|🇸🇬|坡|狮城|SG|Singapore|🇬🇧|🇫🇷|🇳🇱|🇮🇸|🇩🇪|🇺🇦|🇨🇭|🇪🇺|🇨🇦|加拿大|温哥华|多伦多|🇺🇸|美|US|States|American).*$"}
 
 
 
