@@ -11,7 +11,7 @@ dns:
 subscribe-url:
 # > 远程服务器
 proxy-providers:
-  Subscribe: {interval: 86400, benchmark-timeout: 3, benchmark-url: 'http://www.gstatic.com/generate_204', url: 'https://jidc5.no-mad-world.club/link/dpDCadKaeOV7P0TO?clash=3&extend=1'}
+  Subscribe: {interval: 86400, benchmark-timeout: 3, benchmark-url: 'http://www.gstatic.com/generate_204', url: 'https://'}
 proxy-groups:
   # 分流分组
   - {name: 手动切换, icon: 'https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/%24tash.png', type: select, use: [Subscribe], proxies: [自动选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
