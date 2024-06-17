@@ -31,7 +31,7 @@ proxy-providers:
 proxy-groups:
 
   # 分流分组
-  - {name: 节点选择, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png, type: select, proxies: [自动选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
+  - {name: 节点选择, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png, type: select, proxies: [自动选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
 
   - {name: 手动切换, icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/%24tash.png, type: select, include-all: true, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
 
@@ -55,16 +55,16 @@ proxy-groups:
 
   - {name: 电报消息, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
 
-  - {name: 推特消息, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
+  - {name: 推特消息, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
 
 
 
   # 新增
-  - {name: Whatsapp, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Whatsapp.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
-  - {name: Line, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Line.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
-  - {name: Wechat, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/WeChat.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
-  - {name: TikTok, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
-  - {name: XiaoHongShu, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Fitness/Chat.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
+  - {name: Whatsapp, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Whatsapp.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
+  - {name: Line, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Line.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
+  - {name: Wechat, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/WeChat.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
+  - {name: TikTok, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
+  - {name: XiaoHongShu, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Fitness/Chat.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
 
 
 
@@ -72,15 +72,15 @@ proxy-groups:
 
 
 
-  - {name: AI, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
+  - {name: AI, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
 
-  - {name: 游戏平台, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
+  - {name: 游戏平台, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
 
-  - {name: Emby, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, type: select, include-all: true, proxies: [节点选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
+  - {name: Emby, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, type: select, include-all: true, proxies: [节点选择, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
 
-  - {name: Spotify, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
+  - {name: Spotify, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
 
-  - {name: 兜底分流, icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/friestash.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
+  - {name: 兜底分流, icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/friestash.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
 
   # 节点地区分流
 
@@ -97,7 +97,7 @@ proxy-groups:
 
   - {name: 日本节点, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png, type: url-test, lazy: true, interval: 300, include-all: true, filter: "(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)"}
 
-  - {name: 台湾节点, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png, type: url-test, lazy: true, interval: 300, include-all: true, filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)"}
+  - {name: 台湾节点, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png, type: url-test, lazy: true, interval: 300, include-all: true, filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)"}
 
   - {name: 欧洲节点, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/European_Union.png, type: url-test, lazy: true, interval: 300, include-all: true, filter: "🇬🇧|🇫🇷|🇳🇱|🇮🇸|🇩🇪|🇺🇦|🇨🇭|🇪🇺"}
 
