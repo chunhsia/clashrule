@@ -26,7 +26,8 @@ subscribe-url:
 
 # > 远程服务器
 proxy-providers:
-
+  订阅地址: {interval: 86400, url: 你的机场订阅地址}
+  
 proxy-groups:
 
   # 分流分组
