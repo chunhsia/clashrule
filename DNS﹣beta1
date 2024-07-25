@@ -58,6 +58,8 @@ ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
 ruleset=🇺🇲 美国节点,[]DOMAIN-SUFFIX,ui.com
 ruleset=🇺🇲 美国节点,[]DOMAIN-SUFFIX,ubnt.com
+ruleset=🇺🇲 美国节点,[]DOMAIN-SUFFIX,twilio.com
+
 ruleset=🇺🇲 美国节点,[]DOMAIN-SUFFIX,ring.com
 
 
