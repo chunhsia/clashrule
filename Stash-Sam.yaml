@@ -1,5 +1,5 @@
 # Sam Har2024-07-25修改
-# 20240725增加：币安
+# 20240725增加：币安,小红书，微信，whatsapp,Line,Facebook
 
 
 
@@ -72,7 +72,7 @@ proxy-groups:
   - {name: TikTok, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 台湾节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 韩国节点, 欧洲节点, 其他节点]}
   - {name: 小红书, icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Fitness/Chat.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 台湾节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 韩国节点, 欧洲节点, 其他节点, DIRECT]}
 
-  - {name: 币安, icon: https://raw.githubusercontent.com/chunhsia/clashrule/ec29bd582b328efb9682bad0d30f14ca272b67d5/Binance.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 台湾节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 韩国节点, 欧洲节点, 其他节点, DIRECT]}
+  - {name: 币安, icon: https://raw.githubusercontent.com/chunhsia/clashrule/main/Binance-Icon2-Logo.wine.png, type: select, proxies: [节点选择, 手动切换, 香港节点, 台湾节点, 美国节点, 加拿大节点, 狮城节点, 日本节点, 韩国节点, 欧洲节点, 其他节点, DIRECT]}
 
 
 
