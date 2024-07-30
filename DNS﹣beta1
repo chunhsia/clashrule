@@ -32,7 +32,7 @@ ruleset=🧸 小红书,https://raw.githubusercontent.com/blackmatrix7/ios_rule_s
 ruleset=📧 SSH邮件,https://raw.githubusercontent.com/huage59420/BYG/master/Clash/Ruleset/ssh.list
 ruleset=🌍 币安,https://github.com/chunhsia/clashrule/raw/main/Binance.list
 
-
+ruleset=🌍 富途,https://github.com/chunhsia/clashrule/raw/main/futunn.list
 
 ruleset=🎶 网易音乐,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
@@ -56,6 +56,7 @@ ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
+
 ruleset=🇺🇲 美国节点,[]DOMAIN-SUFFIX,ui.com
 ruleset=🇺🇲 美国节点,[]DOMAIN-SUFFIX,ubnt.com
 ruleset=🇺🇲 美国节点,[]DOMAIN-SUFFIX,twilio.com
@@ -87,6 +88,9 @@ custom_proxy_group=📲 Line`select`[]🚀 节点选择`[]♻️ 自动选择`[]
 custom_proxy_group=🧸 小红书`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇼🇸 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇨🇦 加拿大`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=📧 SSH邮件`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇼🇸 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇨🇦 加拿大`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🌍 币安`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇼🇸 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇨🇦 加拿大`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT
+
+custom_proxy_group=🌍 富途`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇼🇸 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇨🇦 加拿大`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT
+
 
 
 custom_proxy_group=📹 油管视频`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇼🇸 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇨🇦 加拿大`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT
